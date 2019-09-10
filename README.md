@@ -48,6 +48,8 @@ python ./train/SDN_Color_Blocks3.py
 
 Our testing codes are wrote in jupyter notebook.
 
+Our Result images were put in Results.
+
 ## Network Architecture
 
 ![](./figs/All.png)
@@ -74,3 +76,19 @@ Table 2. Quantitative analysis (average PSNR and SSIM) of the SDNet on two synth
 # Acknowledgement
 
 The study is supported in part by the Natural Science Foundation (NSF) of China (61771250, 61602257, 61572503, 61872424, 61972213, 6193000388), and the NSF of Jiangsu Province (BK20160904).
+
+# Reference
+
+[1] S. Nam, Y. Hwang, Y. Matsushita, S.J. Kim. A holistic approach to cross-channel image noise modeling and its application to image denoising. In CVPR, 2016.
+
+[2] K. Dabov, A. Foi, V. Katkovnik, and K. Egiazarian. Color image denoising via sparse 3D collaborative filtering with grouping constraint in luminance-chrominance space. In ICIP, 2007.
+
+[3] K. Zhang, W. Zuo, Y. Chen, D. Meng, and L. Zhang. Beyond a gaussian denoiser: Residual learning of deep cnn for image denoising. TIP, 26: 3142–3155, 2017.
+
+[4] M. Lebrun, M. Colom, and J.-M. Morel. Multiscale image blind denoising. TIP, 24(10):3149– 3161, 2015.
+
+[5] S. Gu, L. Zhang, W. Zuo, and X. Feng. Weighted nuclear norm minimization with application to image denoising. In CVPR, 2014.
+
+[6] J. Xu, L. Zhang, D. Zhang, and X. Feng. Multi-channel weighted nuclear norm minimization for real color image denoising. In ICCV, 2017.
+
+[7] D. Martin, C. Fowlkes, D. Tal, and J. Malik. A database of human segmented natural images and its application to evaluating segmentation algorithms and measuring ecological statistics. In ICCV, 2001.
